@@ -1,6 +1,11 @@
 <?php
 require_once 'config.php';
 
+
+// Suas operações com o banco aqui
+
+$database->fecharConexao();
+
 if (!isset($_SESSION['pessoas']) || count($_SESSION['pessoas']) === 0) {
     echo "<p>Nenhuma pessoa cadastrada ainda.</p>";
     return;
