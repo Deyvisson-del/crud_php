@@ -1,11 +1,8 @@
 <?php
 require_once 'config.php';
 
-
-// Suas operações com o banco aqui
-
-$database->fecharConexao();
 ?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">

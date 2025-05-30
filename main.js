@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const resultadoDiv = document.getElementById('resultado');
     const listaPessoasDiv = document.getElementById('listaPessoas');
 
+    console.log(listaPessoasDiv);
+    
     // Verifique se os elementos existem
     if (!formCadastro || !resultadoDiv || !listaPessoasDiv) {
         console.error("Elementos não encontrados no DOM");
